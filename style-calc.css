@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+.card{
+    font-size: 0 ;
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.card:hover{
+     box-shadow: 10px 10px 10px white;
+}
+
+
+.card-head #result{
+    width: 330px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    text-align: right;
+    letter-spacing: 2px;
+}
+
+.btn{
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: black;
+    color: wheat;
+}
+
+.btn-style{
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: orange;
+    color: black;
+}
+
+.btn:hover{
+    background-color: plum;
+}
+
+.btn-style:hover{
+    background-color: yellow;
+}
