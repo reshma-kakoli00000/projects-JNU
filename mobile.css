@@ -1,0 +1,214 @@
+*{ box-sizing: border-box;
+}
+
+body{ margin: 0 auto;}
+
+
+
+.navheading h1{
+
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+.navlogo{
+    
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px ;
+
+    transition-duration: 5s;
+            transition-delay: 1s;
+            transition-timing-function: ease-in-out;
+    
+}
+
+.navlogo:hover{
+    transform: rotate(360deg);
+}
+
+.navlogo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.navbar{
+    background-color: #40868b;
+    padding: 1% 7%;
+    text-align: center;
+    border-bottom:none;
+}
+
+/*   Col er kaj gulo  */
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+.navbar::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+
+.navmenu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    
+
+}
+
+.navmenu a{
+    background-color: #0c6168;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px 20px;
+    
+    
+}
+
+.navmenu a:hover{
+    background-color: gray;
+}
+
+.navheading h1{color: white;}
+
+hr{
+  border: 3px solid black;
+  width: 100%;
+  margin: 20px auto;
+  border-bottom:none;
+
+}
+
+
+
+main{
+   
+    height: 100%;
+    width: 100%;
+    background-image: url("img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.44;
+    position: fixed;
+
+   
+
+}
+
+.profile-desc h1 {
+
+   height: 100%;
+   width: 100%;
+   margin-bottom: 10px;
+   padding: 130px 50px 10px 300px;
+   
+   
+   color: black;
+   font-size: 4rem;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   font-style: italic;
+   text-shadow: 5px 5px 3px white;
+
+
+}
+
+.profile-desc p {
+   
+    height: 100%;
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 50px 50px 10px 150px;
+    
+    
+    color: black;
+    font-size: 2rem;
+
+   
+   
+   text-shadow: 3px 3px 1px white;
+}
+
+
+
+
+
+
+
+
+
+.card-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    margin: 15px;
+    box-shadow: 5px 5px 4px black;
+    box-sizing: border-box;
+}
+
+.img-style{ width: 100%;}
+
+.card-body{
+    padding: 8px;
+    background-color: aqua;
+}
+
+.title{
+    font-size: 2rem;
+    color:black;
+    text-align: center;
+}
+
+.desc{
+    text-align: justify;
+    line-height: 1.5;
+    color: brown;
+}
+
+.card:hover{
+    box-shadow: 6px 10px 12px brown;
+}
